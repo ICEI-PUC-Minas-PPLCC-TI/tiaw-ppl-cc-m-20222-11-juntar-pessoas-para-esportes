@@ -1,12 +1,13 @@
 Usuário – número (chave), nome, senha, disponibilidade, telefone, assinaturas
 Local – número (chave), endereço, nome, telefone, quantidade de quadras, horário, sócios
-Administrador – número (chave), nome, telefone
+Proprietário – número (chave), nome, telefone
 Quadras – número (chave)tipo, horário, capacidade, disponibilidade
 Esportes – número (chave), nome, quantidade de jogadores
 Eventos - 
+
 Relacionamento:
 Local possui quadras;
-Administrador possui local;
+Proprietário possui local;
 Usuário pratica esporte;
 Usuário é sócio do local;
 Esporte é praticado na quadra;
